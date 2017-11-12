@@ -2,6 +2,7 @@
 Ian McNicoll <ian@inidus.com>
 v1.0.0, 11-Nov-2017
 
+Documentation published at https://clinicalmodelsuk.github.io/5NCDR/
 
 ## Aims of the 5N-CDR project
 
