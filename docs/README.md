@@ -1,6 +1,6 @@
 # Apperta Clinical Modelling Community - 5 Nation CDR project
 Ian McNicoll <ian@inidus.com>
-v1.0.0, 11-Nov-2017
+v1.0.0, 12-Nov-2017
 
 Documentation published at https://clinicalmodelsuk.github.io/5NCDR/
 
