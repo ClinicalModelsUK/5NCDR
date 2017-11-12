@@ -1,4 +1,15 @@
 = Apperta Clinical Modelling Community - 5 Nation CDR project
+Ian McNicoll <ian@inidus.com>
+v1.0.0, 11-Nov-2017
+// Add support for Github icons
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
 
 == Aims of the 5N-CDR project
 
@@ -12,8 +23,6 @@ Within the UK and Irish ehealth communities there is considerable interest in es
   possibly to be exposed via a FHIR `DocumentReference` resource.
 
 
-NOTE: The candidate templates are deliberately 'opinionated' and will not be suitable for all use-cases.
-
 Candidate openEHR templates::
 
 - http://ckm.apperta.org/ckm/#showTemplate_1051.57.71[IDCR - Adverse Reaction List.v1] -  `Adverse reaction list`
@@ -23,13 +32,18 @@ Candidate openEHR templates::
 - `Vital signs encounter`
 - `Metabolic summary`
 
+NOTE: The candidate templates are deliberately 'opinionated' and will not be suitable for all use-cases.
+
+=== Registering for Apperta CKM template reviews
+
+To register for template reviews, please http://ckm.apperta.org/ckm/#signUp_1051.61.18_3b7a82f9dafec941f229965394a0d590[sign up here.]
 
 == High-level FHIR requirements
 
 1. I want to access data held in an openEHR CDR as Allergies, Medications, Problems or Immunisations and expose that data via an HL7 FHIR facade, to be compliant with the UK Care-Connect STU3 profiles.
 2. The `read`, `search` and `conformance` operations of the following Care-Connect STU3 Profiles should be supported.
 
-WARNING: The links below refer to the STU2 profiles - formal STU3 documentation is in preparation.
+WARNING: The links below refer to the FHIR STU2 profiles - formal STU3 documentation is in preparation.
 
 - https://nhsconnect.github.io/CareConnectAPI/api_clinical_allergyintolerance.html[AllergyIntolerance]
 - https://nhsconnect.github.io/CareConnectAPI/api_clinical_condition.html[Condition]
@@ -49,3 +63,5 @@ https://simplifier.net/CareConnectSTU4/~resources?category=Profileand[Simplifier
 Guidance will be given for each template / profile as to which optional elements should be supported.
 
 4. The handling of negated and missing data e.g. 'No known allergies or adverse reactions' is still being discussed by Care-Connect community. Advice will be given on mappings in due course.
+
+== Detailed openEHR-FHIR mapping guidance
