@@ -59,7 +59,7 @@ Guidance will be given for each template / profile as to which optional elements
 
 ## Detailed openEHR-FHIR mapping guidance (TBD)
 
-- [AllergyIntolerance]
+- [AllergyIntolerance](https://github.com/inidus/open_ehr-fhir_care_connect/blob/master/docs/openEHR%20AdverseReactionRisk%20to%20FHIR%20allergyIntolerance%20STU3%20mappings.adoc)
 - [Condition]
 - [Immunization]
 - [MedicationStatement]
