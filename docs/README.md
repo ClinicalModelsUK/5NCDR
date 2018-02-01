@@ -19,10 +19,10 @@ Within the UK and Irish ehealth communities there is considerable interest in es
 ### Candidate openEHR templates::
 
 - [IDCR - Adverse Reaction List.v1](http://ckm.apperta.org/ckm/#showTemplate_1051.57.71) -  `Adverse reaction list`
-- `Problem list`
-- `Immunisation list`
+- [IDCR - Problem List.v1](http://ckm.apperta.org/ckm/#showTemplate_1051.57.134) -  `Problem list`
+- [IDCR - Procedures List.v1](http://ckm.apperta.org/ckm/#showTemplate_1051.57.140) -  `Procedures list`
+- [IDCR - Vital Signs Encounter](http://ckm.apperta.org/ckm/#showTemplate_1051.57.141)  -  `Vital signs encounter`
 - `Medication statement`
-- `Vital signs encounter`
 - `Metabolic summary`
 
 NOTE: The candidate templates are deliberately 'opinionated' and will not be suitable for all use-cases.
